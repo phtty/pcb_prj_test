@@ -1,3 +1,9 @@
-*.lck
-*.kicad_prl
-*-backups/
+# kicad ignore
+*
+# 只保留工程文件、sch和pcb文件
+!*.kicad_prj
+!*.kicad_sch
+!*.kicad_pcb
+!.gitignore
+!README.md
+_autosave*
